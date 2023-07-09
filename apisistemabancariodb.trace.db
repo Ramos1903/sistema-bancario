@@ -1,0 +1,6 @@
+2022-10-16 19:30:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found (this database is empty); SQL statement:
+select customer0_.seq_customer as seq_cust1_0_, customer0_.account as account2_0_, customer0_.balance as balance3_0_, customer0_.birth_date as birth_da4_0_, customer0_.exclusive as exclusiv5_0_, customer0_.name as name6_0_ from customer customer0_ where customer0_.account=? [42104-214]
+2022-10-16 19:31:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found (this database is empty); SQL statement:
+select customer0_.seq_customer as seq_cust1_0_, customer0_.account as account2_0_, customer0_.balance as balance3_0_, customer0_.birth_date as birth_da4_0_, customer0_.exclusive as exclusiv5_0_, customer0_.name as name6_0_ from customer customer0_ where customer0_.account=? [42104-214]
